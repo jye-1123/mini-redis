@@ -15,7 +15,7 @@ DEL product:7            → 삭제
 GET product:7            → 값 없음
 ```
 
-같은 키를 다시 저장하면 기존 항목을 갱신합니다. 서로 다른 키는 같은 값이라도 별도 항목입니다. 없는 키 조회는 None, 삭제는 bool을 반환하기로 했습니다. HTTP 응답은 [API 규격](../docs/API.md)에 확정한 내용을 따릅니다.
+같은 키를 다시 저장하면 기존 항목을 갱신합니다. 서로 다른 키는 같은 값이라도 별도 항목입니다. 없는 키 조회는 None, 삭제는 bool을 반환하기로 했습니다. HTTP 응답은 [API 규격](https://github.com/jye-1123/mini-redis/blob/main/docs/API.md)에 확정한 내용을 따릅니다.
 
 실제 Redis는 문자열 외에도 리스트·집합 등 여러 자료형을 제공합니다. **키를 찾는 해시 테이블**과 **값으로 제공하는 Hash 자료형**은 다른 층의 개념입니다. 이번 Mini Redis가 구현하는 값의 범위는 문자열입니다.
 
@@ -50,7 +50,7 @@ GET product:7            → 값 없음
 
 빈 키·빈 값을 허용하고 공백·줄바꿈 등 원문을 유지합니다. UTF-8 바이트로 키 1 KiB·값 1 MiB까지 받으며 문자열이 아닌 입력을 자동 변환하지 않습니다. Python 문자열은 불변 객체입니다. 이전 C의 NUL 종료 문자열·수동 해제 규칙을 현재 설계로 사용하지 않습니다.
 
-해시 테이블로 키를 찾는 기능과 앱이 응답을 캐싱하는 기능은 분리합니다. 앱은 HTTP API로 저장소를 사용하고 원본 조회·캐시 사용 판단을 맡습니다. 계약의 상세와 남은 극단 입력은 [요구사항](../docs/REQUIREMENTS.md), 테스트는 [TESTING](../docs/TESTING.md)을 따릅니다.
+해시 테이블로 키를 찾는 기능과 앱이 응답을 캐싱하는 기능은 분리합니다. 앱은 HTTP API로 저장소를 사용하고 원본 조회·캐시 사용 판단을 맡습니다. 계약의 상세와 남은 극단 입력은 [요구사항](https://github.com/jye-1123/mini-redis/blob/main/docs/REQUIREMENTS.md), 테스트는 [TESTING](https://github.com/jye-1123/mini-redis/blob/main/docs/TESTING.md)을 따릅니다.
 
 ## 참고
 

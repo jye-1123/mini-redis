@@ -21,7 +21,7 @@ Flask 개발 서버도 Windows에서 동작하고 스레드 처리를 지원한�
 
 Flask는 TCP·HTTP의 대체재가 아니다. HTTP/1.1은 보통 TCP 위에서 사용된다. 프레임워크·서버가 네트워크 처리의 상당 부분을 맡는 것이다. 예전에 검토한 자체 줄바꿈 TCP 명령은 폐기했다. 실제 Redis의 RESP 및 redis-cli와도 호환되지 않는다.
 
-우리 API는 POST /set·/get·/delete다. 빈 키·공백·슬래시 등을 JSON으로 전달하기 위해 조회도 POST를 쓴다. 정확한 필드와 오류는 [API 규격](../docs/API.md)에 모은다.
+우리 API는 POST /set·/get·/delete다. 빈 키·공백·슬래시 등을 JSON으로 전달하기 위해 조회도 POST를 쓴다. 정확한 필드와 오류는 [API 규격](https://github.com/jye-1123/mini-redis/blob/main/docs/API.md)에 모은다.
 
 ## 시작과 종료
 

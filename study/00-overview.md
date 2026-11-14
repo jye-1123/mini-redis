@@ -26,11 +26,11 @@ Redis의 필요성에서 출발해 사용 방식, 내부 자료구조, 만료와
 
 ## 함께 볼 문서
 
-- [과제 요구사항](../docs/assignment.md)
-- [프로젝트 개요](../docs/PROJECT.md)
-- [프로젝트 문서 안내](../docs/README.md)
-- [내부 구조](../docs/DESIGN.md)와 [선택별 대안·비용](../docs/DECISIONS.md)
-- [협업과 검증 기록 방법](../docs/WORKFLOW.md)
+- [과제 요구사항](https://github.com/jye-1123/mini-redis/blob/main/docs/assignment.md)
+- [프로젝트 개요](https://github.com/jye-1123/mini-redis/blob/main/docs/PROJECT.md)
+- [프로젝트 문서 안내](https://github.com/jye-1123/mini-redis/blob/main/docs/README.md)
+- [내부 구조](https://github.com/jye-1123/mini-redis/blob/main/docs/DESIGN.md)와 [선택별 대안·비용](https://github.com/jye-1123/mini-redis/blob/main/docs/DECISIONS.md)
+- [협업과 검증 기록 방법](https://github.com/jye-1123/mini-redis/blob/main/docs/WORKFLOW.md)
 
 이 문서는 전달받은 두 인수인계 문서와 현재 대화의 정정 사항을 바탕으로 편집했습니다. 참고한 공식 자료는 각 장 하단에 연결합니다. 개인의 이해도나 실습 완료 여부는 문서 존재만으로 판단하지 않습니다.
 

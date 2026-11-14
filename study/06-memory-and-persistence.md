@@ -21,6 +21,6 @@ Python도 RAM을 사용한다. C와 같은 성능·메모리 비용이라는 뜻
 
 실제 Redis의 RDB 스냅샷은 특정 시점의 상태를, AOF는 변경 명령을 기록하는 방식이다. 각각 저장 비용·디스크 반영 정책·재생 시간·손실 범위가 다르다. 필수 기능 검증 후 선택 과제로 검토하며 지금 복구를 보장하지 않는다.
 
-[선택 이유](../docs/DECISIONS.md) · [Redis 영속성](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/)
+[선택 이유](https://github.com/jye-1123/mini-redis/blob/main/docs/DECISIONS.md) · [Redis 영속성](https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/)
 
 [이전](05-server-and-http.md) · [목차](00-overview.md) · [다음](07-project-decisions.md)
