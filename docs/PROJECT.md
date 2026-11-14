@@ -30,6 +30,9 @@
 
 - [학습 목차](../study/00-overview.md)
 - [과제 요구사항](assignment.md)
+- [프로젝트 문서 안내](README.md)
+- [내부 구조와 동작](DESIGN.md)
+- [설계 선택과 대안](DECISIONS.md)
 - [협업·검증 기록](WORKFLOW.md)
 
 [저장소 소개](../README.md)
